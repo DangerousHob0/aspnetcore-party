@@ -14,6 +14,6 @@ namespace PartyInvites.Models
         public bool? WillAttend { get; set; }
 
         [Required(ErrorMessage = "Please enter your age")]
-        public int Age { get; set; }
+        public int? Age { get; set; }
     }
 }
